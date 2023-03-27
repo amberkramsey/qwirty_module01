@@ -1,0 +1,31 @@
+#app {display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    min-height: 100%;}
+main {display:flex;
+    flex-direction: row;
+    flex: 1 1 auto;}
+nav {display: flex;
+    flex: 0 0 50px;
+    flex-direction: column;
+    box-sizing: border-box;
+    }
+a {background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    text-align: center;
+    text-transform: uppercase;}
+aside {display:flex;
+    flex: 0 0 50px;
+    background-color:gold;
+    border: solid black 1px;
+    height: 300px;
+    }
+.ad {padding: 10px;}
+article {background-color: darkgray}
+header {background-color: darkgray;
+    padding: 5px;}
+footer {background-color: darkgray;
+    padding: 5px;}
